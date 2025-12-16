@@ -10,7 +10,7 @@ class ShinyCounter:
     def __init__(self, root):
         self.root = root
         self.root.title("Shiny Pokemon Counter")
-        self.root.geometry("450x350")
+        self.root.geometry("550x450")
         self.root.configure(bg="#2c3e50")
         
         # Default settings
